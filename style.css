@@ -1,0 +1,128 @@
+/* Global Css */ 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.global-btn{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+/* Global Css   */
+
+}
+.global-section{
+    padding: 3rem 0;
+}
+.global-heading{
+    font-size: 55px;
+    text-align: center;
+}
+.global-head-p{
+    color:#6B6B6B;
+    text-align: center;
+}
+/* This is header */
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+.main-menu ul li{
+    display: inline;
+    margin-right: 10px;
+}
+/* First section */
+.First-section{
+    background-image:url(images/stylelish\ girl.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+
+}
+.First-section p{
+    font-size: 3rem;
+    margin:10px;
+}
+.First-section h2{
+    font-size: 5rem;
+    margin: 10px 0;
+}
+/* About us Section */
+.about-main-div{
+    display: flex;
+    align-items: center; 
+    justify-content:center; 
+    padding: 3rem 0;  
+}
+.about-sub-div2{
+    width: 500px;
+}
+about-sub-div2 h2{
+    font-size: 33px;
+}
+.about-sub-div2 p{
+    color: #6B6B6B;
+    margin: 15px 0;
+}
+/* This is Service Area */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+}
+.image-size{
+    size: 1px;
+    height: 7rem;
+    
+}
+/*Work section */
+.work-single-img{
+   width: 230px;
+}
+/*Testimonial Section */
+.testimonial-p{
+    color: black !important;
+    margin-top: 5px;
+}
+/*Contact Section */
+.contact-heading{
+    font-size: 55px;
+    text-align: center;
+}
+form{
+    margin-left: 38rem;
+    margin-top: 20px;
+}
+form input{
+    width: 400px;
+}
+form textarea{
+    width: 400px;
+}
+.submit-btn{
+    width: 170;
+    height: 35px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+/*this is footer */
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 3rem;
+}
+footer-p{
+    padding-top: 15px;
+}
